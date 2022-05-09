@@ -1,10 +1,6 @@
-const temperature = 12;
+const isCitizen = true;
+const age = 24;
 
-if (temperature < 0) {
-  console.log("Make sure you bring a jacket!");
-} else if (temperature < 15) {
-  console.log("You need sleeves.");
-} else {
-  console.log("Shorts are fine.");
+if (isCitizen && age > 18) {
+  console.log("Congrats! You\'re able to vote!");
 }
-console.log("Now you\'re ready, see you when you get home!");
