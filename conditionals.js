@@ -1,3 +1,5 @@
-if (!raining) {
-  console.log("It\'s not raining, no need for an umbrella.");
+const raining = true;
+
+if (raining) {
+  console.log("Don't forget an umbrella");
 }
