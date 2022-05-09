@@ -1,4 +1,5 @@
-const temperature = 45
-if (temperature < -40 || temperature > 40) {
-  console.log("What are you doing outside???")
+const raining = false
+
+if (!raining) {
+  console.log("No need for an umbrella, it\'s not raining!");
 }
