@@ -1,3 +1,3 @@
-if (temperature < -40 || temperature > 40) {
-  console.log("What are you doing outside???");
+if (!raining) {
+  console.log("It\'s not raining, no need for an umbrella.");
 }
